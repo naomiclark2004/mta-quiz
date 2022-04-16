@@ -13,6 +13,7 @@ function jsloader() {
     .then((rep) => rep.json())
     .then((data) => {
       questions = data;
+      localStorage.setItem("myQuestions", JSON.stringify(questions));
       maker();
       savetoStorage();
     });
