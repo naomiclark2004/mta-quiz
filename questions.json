@@ -1,0 +1,1105 @@
+[
+  {
+    "number": 1,
+    "instruction": "Which CSS3 code fragment styles an H2 element only if it is a direct child of a DIV element?",
+    "fragment": [
+      "&#8226; div { background-color: #900; } h2{ background-color: #900; }",
+      "&#8226; div > h2 { background-color: #900; }",
+      "&#8226; h2 > div { background-color: #900; }",
+      "&#8226; div, h2 { background-color: #900; }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 2,
+    "question": "Which CSS property defines which sides of an element where other floating elements are not allowed?",
+    "options": ["float", "postion", "display", "clear"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 3,
+    "instruction": "You write the following code to create a page. (Line number are included for reference only.)",
+    "fragment": [
+      "<img src=\"https://vceguide.com/wp-content/uploads/2019/10/Microsoft-98-375-date-01-06-2019-00001_Page_02_Image_0001.jpg\" width=\"100%\">"
+    ],
+    "question": "You need to apply the SVG blur filter to the text tag on the page. Which HTML/CSS code should you insert at line 02?",
+    "options": [
+      "<style> text { font: 48px arial bold; fill: blur; } </style>",
+      "<style> text { font: 48px arial bold; filter: url (#blur); } </style>",
+      "<style> text { font: 48px arial bold; filter: #blur; } </style>",
+      "<style> text { font: 48px arial bold; filter: url (blur); } </style>"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 4,
+    "question": "Which layout can you create by using a single CSS3 region?",
+    "options": [
+      "a table layout",
+      "a snake-column layout",
+      "a multiple column liquid layout",
+      "a multiple column fixed layout"
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 5,
+    "question": "In CSS, the flow-into property deposits:",
+    "options": [
+      "the flow into the content.",
+      "the regions into a flow.",
+      "the flow into regions.",
+      "content into the flow."
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 6,
+    "instruction": "Which CSS code fragment centers an image horizontally?",
+    "fragment": [
+      "&#8226; img.center { text-align: center; }",
+      "&#8226; img.center { display: block; text-align: center; }",
+      "&#8226; img.center { display: block; }",
+      "&#8226; img.center { display: block; margin-left: auto; margin-right: auto; }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 7,
+    "instruction": "DRAG DROP </br> Match the CSS terms to the corresponding examples. (To answer, drag the appropraite term from the column on the left to it example on the right, Each term may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>CSS Terms</th><th class='title2'>Answers</th></tr><tr><td class='op'><div class='card'>value</div></td><td class='drop'></td><td>1.8rem</td></tr></tr><tr><td class='op'><div class='card'>property</div></td><td class='drop'></td><td>.container</td></tr><tr><td class='op'><div class='card'>id selector</div></td><td class='drop'></td><td>#container</td></tr><tr><td class='op'><div class='card'>declaration</div></td><td class='drop'></td><td>margin-top</td></tr><tr><td class='op'><div class='card'>class selector</div></td><td class='drop'></td><td>font-family: Arial;</td></tr>",
+    "correct": [
+      "value",
+      "class selector",
+      "id selector",
+      "property",
+      "declaration"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 8,
+    "question": "Which positioning scheme places an object in normal documnet flow?",
+    "options": ["absolute", "relative", "fixed", "float"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 9,
+    "question": "The variable named \"ctx\" is the context of an HTML5 canvas object. What does the following code draw? ctx arc(x, y, r, 0 Math PI, true);",
+    "options": [
+      "a circle at the given point",
+      "a square at the given point",
+      "a semi-circle at the given point",
+      "a line from one point to another"
+    ],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 10,
+    "question": "Which three are valid JavaScript variables? (Choose three.)",
+    "options": ["xyz1", ".int", "int1", "_int", "1xyz"],
+    "correct": [0, 2, 3],
+    "display": "ACD",
+    "type": "checkbox"
+  },
+  {
+    "number": 11,
+    "instruction": "Your code includes the following fragment:",
+    "fragment": ["< input > type=\"text\" name=\"text1\" id=\"myText\" / >"],
+    "question": "You need to add code that will retrieve the contents of the INPUT element. Which JavaScript code fragment will accomplish this?",
+    "options": [
+      "vartxtContents = document.getElementById(\"text\").value;",
+      "vartxtContents = document.getElementById(\"myText\").value;",
+      "vartxtContents = document.getElementById(\"text\");",
+      "vartxtContents = document.getElementById(\"myText\");"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 12,
+    "question": "Which two events are supported on touch devices? (Choose two.)",
+    "options": ["click", "touchstart", "selection", "drag"],
+    "correct": [0, 1],
+    "display": "AB",
+    "type": "checkbox"
+  },
+  {
+    "number": 13,
+    "question": "This data is a specific HTML5 local storage database can be accessed from:",
+    "options": [
+      "Different browsers on the same device.",
+      "Different browsers on different devices.",
+      "The same browser on different devices.",
+      "The same browser on the same device."
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 14,
+    "question": "You are creating a page by using HTML5. You add script tags to the page. You need to use JavaScript to access an element by id and add a class to the element. Which property or attribute should you use?",
+    "options": [
+      "the tagName property",
+      "the className property",
+      "the style property",
+      "the class attribute"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 15,
+    "instruction": "DRAG DROP </br> Match the JavaScript objects to the corresponding characteristics or methods. (To answer, drag the appropriate JavaScript object from the column on the left to its characteristic or method on the right. Each JavaScript object may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>JavaScript Code Fragment</th><th class='title2'>HTML5 Local Storage Function</th></tr><tr><td class='op'><div class='card'>localStorage.key(0);</div></td><td class='drop'></td><td>writes data to local storage</td></tr></tr><tr><td class='op'><div class='card'>localStorage.clear();</div></td><td class='drop'></td><td>removes all data from a local storage object</td></tr><tr><td class='op'><div class='card'>localStorage.getItem(\"name\");</div></td><td class='drop'></td><td>eliminates a local storage value</td></tr><tr><td class='op'><div class='card'>localStorage.removeItem(\"name\");</div></td><td class='drop'></td><td>reads data from local storage</td></tr><tr><td class='op'><div class='card'>localStorage.setItem(\"name\", nameData);</div></tr>",
+    "correct": [
+      "localStorage.setItem(\"name\", nameData);",
+      "localStorage.clear();",
+      "localStorage.removeItem(\"name\");",
+      "localStorage.getItem(\"name\");"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 16,
+    "question": "Which code fragment sets up a timer that calls a function named \"adjust\" every second?",
+    "options": [
+      "setTimeout(adjust, 1000);",
+      "setInterval(adjust, 1000);",
+      "setInterval(adjust, 1);",
+      "setTimeout(adjust, 1);"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 17,
+    "question": "Which two HTML properties can JavaScript access to change the text value of an HTML element? (Choose two.)",
+    "options": ["innerHTML", "nodeType", "title", "nodeValue"],
+    "correct": [0, 2],
+    "display": "AC",
+    "type": "checkbox"
+  },
+  {
+    "number": 18,
+    "question": "Web Workers define an API for:",
+    "options": [
+      "Publishing frequently update works for syndication.",
+      "Running scripts in the background.",
+      "Bi-directional, full-dyplex communications over single TCP socket.",
+      "Distributing load across multiple web servers."
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 19,
+    "question": "Which two are WebSocket events? (Choose two.)",
+    "options": ["onconnect", "onmessage", "ondatareceived", "onopen"],
+    "correct": [1, 4],
+    "display": "BD",
+    "type": "checkbox"
+  },
+  {
+    "number": 20,
+    "question": "You create an interface for a touch-enabled application. During testing you discover that some touches trigger multiple input areas. Which situation will cause this problem?",
+    "options": [
+      "The touch screen is not calibrated.",
+      "The input areas are too close together.",
+      "The defined input areas are too small.",
+      "The input areas are semi-transparent."
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 21,
+    "question": "An HTML application can be used without going through a manufacturer's approval process if:",
+    "options": [
+      "the broswer on the device supports HTML5.",
+      "the manufacturer has unlocked the device's SIM card.",
+      "the application has been compiled.",
+      "the developer has the correct application ID."
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 22,
+    "instruction": "DRAG DROP </br> Match the HTML5 technologies to the corresponding descriptions. (To answer, drag the appropriate technology from the column on the left to its description on the right. Each technology may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>HTML5 Technology</th><th class='title2'>Description</th></tr><tr><td class='op'><div class='card'>CSS</div></td><td class='drop'></td><td>a language used to store configuation settings and data</td></tr></tr><tr><td class='op'><div class='card'>HTML5</div></td><td class='drop'></td><td>a language that controls the formatting and style of a document</td></tr><tr><td class='op'><div class='card'>JavaScript</div></td><td class='drop'></td><td>a language that uses tags to display blocks of text and features such as media</td></tr><tr><td class='op'><div class='card'>Soap</div></td><td class='drop'></td><td>a language used to program document object interactions and event responses</td></tr><tr><td class='op'><div class='card'>XML</div></td></tr>",
+    "correct": [
+      "XML",
+      "CSS",
+      "HTML5",
+      "JavaScript"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 23,
+    "question": "Which item specifies resources for an offline HTML5 application?",
+    "options": [
+      "a CSS style sheet",
+      "an HTML5 file",
+      "a JavaScript file",
+      "a cache manifest file"
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 24,
+    "question": "In the HTML5, which two objects in the WebStorage specification are used to store data on the client? (Choose two.)",
+    "options": [
+      "websocket",
+      "navigation",
+      "cache",
+      "sessionStorage",
+      "localStorage"
+    ],
+    "correct": [3, 4],
+    "display": "DE",
+    "type": "checkbox"
+  },
+  {
+    "number": 25,
+    "instruction": "Which two code fragments represent ways to use HTML5 to save values to session storage? (Choose two.)",
+    "fragment": [
+      "&#8226; sessionStorage.setItem('someKey', 'someValue');",
+      "&#8226; sessionStorage.setItem.someKey='someValue';",
+      "&#8226; sessionStorage.someKey='someValue';",
+      "&#8226; sessionStorage.updateItem('someKey', 'someValue');"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [0, 2],
+    "display": "AC",
+    "type": "checkbox"
+  },
+  {
+    "number": 26,
+    "question": "When you are testing a touch interface, which two gestures can you simulate by using a mouse? (Choose two.)",
+    "options": ["tap", "pinch", "flick", "rotate"],
+    "correct": [0, 3],
+    "display": "AD",
+    "type": "checkbox"
+  },
+  {
+    "number": 27,
+    "question": "Which three event attributes are used with the CAPTION element in HTML5? (Choose three.)",
+    "options": [
+      "onmouseover",
+      "ondblclick",
+      "onkeydown",
+      "onconnect",
+      "onabort"
+    ],
+    "correct": [0, 1, 2],
+    "display": "ABC",
+    "type": "checkbox"
+  },
+  {
+    "number": 28,
+    "question": "Which HTML5 tag defines superscript text?",
+    "options": ["<small>", "<script>", "<sup>", "<sub>"],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 29,
+    "instruction": "DRAG DROP </br> Match the HTML5 input attributes to the corresponding descriptions. (To answer, drag the appropriate attribute from the column on the left to its description on the right. Each attribute may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>Attribute</th><th class='title2'>Description</th></tr><tr><td class='op'><div class='card'>maxlength</div></td><td class='drop'></td><td>provides a way to set a regular experssion that the value must match</td></tr></tr><tr><td class='op'><div class='card'>multiple</div></td><td class='drop'></td><td>provides a way to set default text until focus is placed in a element</td></tr><tr><td class='op'><div class='card'>pattern</div></td><td class='drop'></td><td>provides a way to set form elements as mandatory</td></tr><tr><td class='op'><div class='card'>placeholder</div></td><td class='drop'></td><td>provides a way to allow more than one file email address in a single input</td></tr><tr><td class='op'><div class='card'>required</div></td></tr>",
+    "correct": ["pattern", "placeholder", "required", "multiple"],
+    "type": "drag&drop"
+  },
+  {
+    "number": 30,
+    "instruction": "What does the following HTML5 code fragment do?",
+    "fragment": [
+      "< video controls >",
+      "< source src=\"myVaction.avi\" type = \"video/avi\" >",
+      "< source src=\"myVaction.ogg\" type = \"video/ogg\" >",
+      "< /video >"
+    ],
+    "options": [
+      "It plays the myVacation.avi video if the browser supports it; otherwise, plays the myVacation.ogg video if the browser supports it.",
+      "It plays two videos: first myVacation.avi, and then myVacation.ogg.",
+      " It plays both videos simultaneously, myVacation.avi and myVacation.ogg.",
+      "It prompts the user to choose which format of the myVacation video it should play, .avi or .ogg."
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 31,
+    "question": "Which are two features of SVG? (Choose two.)",
+    "options": [
+      "uses high performance pixel-based graphics",
+      "can be modified by using CSS",
+      "uses high performance raster-based graphics",
+      "can be modified by using JavaScript"
+    ],
+    "correct": [2, 3],
+    "display": "CD",
+    "type": "checkbox"
+  },
+  {
+    "number": 32,
+    "question": "Which HTML5 tag is used to display text with a fixed-width font and preserves both spaces and line breaks?",
+    "options": ["<area>", "<hr>", "<pre>", "<strong>"],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 33,
+    "question": "What does \"V\" stand for in the file type SVG?",
+    "options": ["Video", "Vertical", "Vector", "Variable"],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 34,
+    "question": "Which tag is used to create a drop-down list in HTML5?",
+    "options": ["<ul>", "<select>", "<datalist>", "<dd>"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 35,
+    "question": "Which attribute prefills a default value for an input element in HTML5?",
+    "options": ["name", "placeholder", "autocomplete", "required"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 36,
+    "instruction": "Which two outcomes will this code fragment accomplish? (Each correct answer presents a complete solution. (Choose two.)",
+    "fragment": [
+      "< audio src=\"happy.wav\" controls=\"controls\" >",
+      "Hello World",
+      "< / audio >"
+    ],
+    "options": [
+      "On pre-HTML5 browsers, the happy.wav file will not play, and instead Hello World will be displayed.",
+      "On an HTML5 browser that supports .wav files, the happy.wav file will be played and Hello World will be hidden.",
+      "On an HTML5 browser that supports .wav files, the happy.wav file will be played and Hello World will be displayed.",
+      "On pre-HTMLS browsers, the happy.wav file will play and Hello World will be hidden."
+    ],
+    "correct": [0, 1],
+    "display": "AB",
+    "type": "checkbox"
+  },
+  {
+    "number": 37,
+    "question": "Which three technologies does HTML5 encompass? (Choose three.)",
+    "options": ["CSS", "ASP.NET", "C#", "JavaScript", "HTML"],
+    "correct": [0, 3, 4],
+    "display": "ADE",
+    "type": "checkbox"
+  },
+  {
+    "number": 38,
+    "question": "You create an interface for a touch-enabled application.You discover that some of the input buttons do not trigger when you tap the screen.You need to identify the cause of the problem.What are two possible causes? (Choose two.)",
+    "options": [
+      "The input areas overlap with other input areas.",
+      "The touch screen is not initialized.",
+      "The input areas are using event handlers to detect input.",
+      "The defined input areas are not large enough."
+    ],
+    "correct": [0, 3],
+    "display": "AD",
+    "type": "checkbox"
+  },
+  {
+    "number": 39,
+    "question": "An HTML5 application can run without an Internet connection if:",
+    "options": [
+      "the application is converted to an executable.",
+      "the .NET Framework is installed on the client computer.",
+      "the application specifies the use of a client-side SQL database.",
+      "the application specifies the use of an ApplicationCache interface."
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 40,
+    "question": "On a Windows touch device, which gesture serves the same purpose as a right-click of the mouse?",
+    "options": ["swipe", "pinch", "tap", "hold"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 41,
+    "question": "Which three components define the URL used for localStorage data in HTML5? (Choose three.)",
+    "options": [
+      "scheme",
+      "user credentials",
+      "hostname",
+      "unique port",
+      "query"
+    ],
+    "correct": [0, 2, 3],
+    "display": "ACD",
+    "type": "checkbox"
+  },
+  {
+    "number": 42,
+    "instruction": "DRAG DROP </br> Match the CSS terms to the corresponding examples. (To answer, drag the appropraite term from the column on the left to it example on the right, Each term may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>Javascript Object</th><th class='title2'>Characteristic or Method</th></tr><tr><td class='op'><div class='card'>document</div></td><td class='drop'></td><td>pushState()</td></tr></tr><tr><td class='op'><div class='card'>history</div></td><td class='drop'></td><td>has an indefininte lifetime</td></tr><tr><td class='op'><div class='card'>localStorage</div></td><td class='drop'></td><td>onLoad()</td></tr><tr><td class='op'><div class='card'>location</div></td><td class='drop'></td><td>has a lifetime of the window</td></tr><tr><td class='op'><div class='card'>sessionStorage</div></td><td class='drop'></td><td>play()</td></tr>",
+    "correct": [
+      "history",
+      "localStorage",
+      "document",
+      "sessionStorage",
+      "location"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 43,
+    "question": "Which two code segments declare JavaScript functions? (Choose two.)",
+    "options": [
+      "varfunct= (a);",
+      "function Foo(a){ }",
+      "var a=new Foo();",
+      "Foo=function(a){"
+    ],
+    "correct": [2, 3],
+    "display": "CD",
+    "type": "checkbox"
+  },
+  {
+    "number": 44,
+    "question": "You add script tags to an HTML page. You need to update the text value within a specific HTML element. You access the HTML element by id. What should you do next?",
+    "options": [
+      "Use the createTextNode method.",
+      "Use the appendChild method.",
+      "Set the new text value with the setAttribute method.",
+      "Use the firstChild property and set the new text value with the nodeValue property."
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 45,
+    "question": "You create an instance named \"location\" of a geolocation object.Which code fragment will initiate periodic updates of a device's geographic location?",
+    "options": [
+      "location = navigator.geolocation;",
+      "location.watchPosition(showLocation) ;",
+      "location.getCurrentPosition(showLocation);",
+      "location.clearNatch(watchid);"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 46,
+    "question": "You need to use JavaScript to access the \"section1\" element in the following code fragment:<div id=\"section1\">Which method should you use?",
+    "options": [
+      "getElementsByTagName",
+      "getElementById",
+      "getElementsByName",
+      "getElementsByClassName"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 47,
+    "question": "Which three properties can be used with the TouchEvent object in the Safari touch API? (Choose three.)",
+    "options": ["offsetTop", "clientHeight", "scale", "touches", "rotation"],
+    "correct": [2, 3, 4],
+    "display": "CDE",
+    "type": "checkbox"
+  },
+  {
+    "number": 48,
+    "instruction": "DRAG DROP </br> Match the touch events to the corresponding actions. (To answer, drag the appropriate touch event from the column on the left to its action on the right. Each touch event may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>Touch Event</th><th class='title2'>Action</th></tr><tr><td class='op'><div class='card'>touchcancel</div></td><td class='drop'></td><td>The application detects more touches than it can process</td></tr></tr><tr><td class='op'><div class='card'>touchend</div></td><td class='drop'></td><td>The user places a finger on the surface of the device</td></tr><tr><td class='op'><div class='card'>touchmove</div></td><td class='drop'></td><td>The user lifts a finger from the touch surface of the device</td></tr><tr><td class='op'><div class='card'>touchstart</div></td><td class='drop'></td><td>The user drags a finger across the surface of the device</td></tr>",
+    "correct": ["touchcancel", "touchstart", "touchend", "touchmove"],
+    "type": "drag&drop"
+  },
+  {
+    "number": 49,
+    "question": "Which three statements describe cookies? (Choose three.)",
+    "options": [
+      "They can be created, read, and erased using the document.cookie property.",
+      "They are limited in size to 5 MB.",
+      "They are deleted automatically when the session ends.",
+      "They can be used only by pages on the domain where they were set.",
+      "They contain the data in the form of a name=value pair."
+    ],
+    "correct": [0, 3, 4],
+    "display": "ADE",
+    "type": "checkbox"
+  },
+  {
+    "number": 50,
+    "question": "Which two terms represent interfaces in the File API? (Choose two.)",
+    "options": ["Font", "Blob", "Keygen", "FileList"],
+    "correct": [1, 3],
+    "display": "BD",
+    "type": "checkbox"
+  },
+  {
+    "number": 51,
+    "question": "Which two semantic tags are used to define layouts in HTML5? (Choose two.)",
+    "options": ["<footer>", "<head>", "<progress>", "<section>"],
+    "correct": [0, 3],
+    "display": "AD",
+    "type": "checkbox"
+  },
+  {
+    "number": 52,
+    "question": "Which two HTML5 tags format text content only? (Choose two.)",
+    "options": ["<map>", "<strong>", "<canvas>", "<em>"],
+    "correct": [1, 3],
+    "display": "BD",
+    "type": "checkbox"
+  },
+  {
+    "number": 53,
+    "question": "In HTML5, the autofocus attribute:",
+    "options": [
+      "defines the cursor location when a form is first accessed.",
+      "controls the movement between fields in a form",
+      "adds a default value to the field in a form",
+      "enables one field and disables all others"
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 54,
+    "question": "Which two tags are used with the HTML5 TABLE element? (Choose two.)",
+    "options": ["<body>", "<tfoot>", "<td>", "<head>"],
+    "correct": [1, 2],
+    "display": "BC",
+    "type": "checkbox"
+  },
+  {
+    "number": 55,
+    "instruction": "Which code shows the correct way to nest tags in HTML5?",
+    "fragment": [
+      "&#8226; < p >This is HTML5< b >< i >test formatting< /b >< /i >< /p >",
+      "&#8226; < p >This is HTML5< b >< i >test formatting< /p >< /i >< /b >",
+      "&#8226; < p >This is HTML5< b >< i >test formatting< /p >< /b >< /i >",
+      "&#8226; < p >This is HTML5< b >< i >test formatting< /i >< /b >< /p >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 56,
+    "question": "Which JavaScript method is used to draw a circle on a canvas?",
+    "options": ["ellipse", "circle", "bezierCurveTo", "arc"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 57,
+    "instruction": "Which code fragment will display an image file while the video is downloading?",
+    "fragment": [
+      "&#8226; < video width=\"740\" height=\"416\" src=\"fireworks.jpg\" >",
+      "&#8226; < video width=\"740\" height=\"416\" poster=\"fireworks.jpg\" >",
+      "&#8226; < video width=\"740\" height=\"416\" autoplay=\"fireworks.jpg\" >",
+      "&#8226; < video width=\"740\" height=\"416\" preload=\"fireworks.jpg\" >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 58,
+    "question": "Which term describes the canvas API?",
+    "options": ["xml-based", "vector-based", "retained-mode", "immediate-mode"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 59,
+    "question": "Which three generic font family names are valid values of the font-family property in CSS? (Choose three.)",
+    "options": ["cursive", "system", "serif", "fixed", "fantasy"],
+    "correct": [0, 2, 4],
+    "display": "ACE",
+    "type": "checkbox"
+  },
+  {
+    "number": 60,
+    "instruction": "DRAG DROP </br> Match the CSS terms to the corresponding CSS code examples. (To answer, drag the appropriate CSS term from the column on the left to its CSS code example on the right. Each CSS term may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>CSS Term</th><th class='title2'>CSS Code Example</th></tr><tr><td class='op'><div class='card'>comment</div></td><td class='drop'></td><td>*</td></tr></tr><tr><td class='op'><div class='card'>pseudo-class</div></td><td class='drop'></td><td>p</td></tr><tr><td class='op'><div class='card'>attribute selector</div></td><td class='drop'></td><td>a:hover</td></tr><tr><td class='op'><div class='card'>universal selector</div></td><td class='drop'></td><td>input[type\"=text\"]</td></tr><tr><td class='op'><div class='card'>element type selector</div></td><td class='drop'></td><td>/*</td></tr>",
+    "correct": [
+      "universal selector",
+      "element type selector",
+      "pseudo-class",
+      "attribute selector",
+      "comment"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 61,
+    "question": "When applied to an image, the CSS float:right property:",
+    "options": [
+      "positions the image to the left and displays all of the text to the right of the image.",
+      "positions the image to the right of the region and wraps text around the top, left, and bottom.",
+      "positions the image to the left of the region and wraps text around the top, right, and bottom.",
+      " positions the image to the right and wraps text to the top and bottom."
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 62,
+    "instruction": "Which CSS3 code segment styles the text color of EM elements to be red and semi-transparent?",
+    "fragment": [
+      "&#8226; em { color:rgba (100%, 0%, 0%, 50%) ; }",
+      "&#8226; em { color:rgba (255, 0, 0, 0.5) ; }",
+      "&#8226; em { color: #ff00007f; }",
+      "&#8226; em { color: rgba(255, 0, 0, 127; }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 63,
+    "question": "Which CSS position value is used to position an element relative to the browser window?",
+    "options": [
+      "position: relative;",
+      "position: absolute;",
+      "position: static;",
+      "position: fixed;"
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 64,
+    "question": "What is the default value of the CSS position property?",
+    "options": ["fixed", "absolute", "static", "relative"],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 65,
+    "instruction": "You write the following code. (Line numbers are included for reference only.)",
+    "fragment": [
+      "<img src=\"https://vceguide.com/wp-content/uploads/2019/10/Microsoft-98-375-date-01-06-2019-00001_Page_31_Image_0001.jpg\" width=\"100%\">"
+    ],
+    "question": "You need to make the text animate up the screen from a starting position of 400 pixels. Which CSS code fragment should you insert at line 13?",
+    "options": [
+      "100% { top: 400px; }",
+      "0% { top: 0px; }",
+      "0% { top: 400px; }",
+      "50% { top: 200px; }"
+    ],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 66,
+    "instruction": "Which code fragment prepares the HTML5 application to be used offline?",
+    "fragment": [
+      "&#8226; < !DOCTYPE html >",
+      "&#8226; < html manifest=\"app.appcache\" >",
+      "&#8226; < html xmlns=\"http://www.w3.org/1999/xhtml\" >",
+      "&#8226; < html lang=\"en\" >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 67,
+    "instruction": "You need to retrieve a value from local storage by using the key \"aardvark.\" Which code fragment should you use?",
+    "fragment": [
+      "var value=localStorage.getItem(\"aardvark\");",
+      "var value=localStorage.key(\"aardvark\");",
+      "var value=localStorage.setItem(\"aardvark\");",
+      "localStorage.setItem(\"aardvark\", value);"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 68,
+    "question": "What value does the following JavaScript code fragment store into the variable num? varnum = localStorage.length;",
+    "options": [
+      " maximum length of a character string",
+      "potential capacity of local storage",
+      "number of bytes available in local storage",
+      "number of key-value pairs in local storage"
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 69,
+    "question": "Which two touch gestures require a multi-touch device? (Choose two.)",
+    "options": ["hold", "tap", "pinch", "spread"],
+    "correct": [1, 2],
+    "display": "BC",
+    "type": "checkbox"
+  },
+  {
+    "number": 70,
+    "instruction": "You add a div object to a page. Which CSS3 code fragment will add a scrollbar only if the content exceeds the width or height of the object?",
+    "fragment": [
+      "&#8226; div { inline:scroll; }",
+      "&#8226; div { inline:auto; }",
+      "&#8226; div { overflow:scroll; }",
+      "&#8226; div { overflow:auto; }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 71,
+    "instruction": "DRAG DROP </br> Match the HTML5 input attributes to the corresponding descriptions. (To answer, drag the appropriate attribute from the column on the left to its description on the right. Each attribute may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>Position Property Value</th><th class='title2'>Description</th></tr><tr><td class='op'><div class='card'>fixed</div></td><td class='drop'></td><td>Element appears in the order in which it is placed in the document flow.</td></tr></tr><tr><td class='op'><div class='card'>static</div></td><td class='drop'></td><td>Element is positioned relative to the first positioned ancestor</td></tr><tr><td class='op'><div class='card'>inherit</div></td><td class='drop'></td><td>Element is positioned relative to the browser window</td></tr><tr><td class='op'><div class='card'>relative</div></td><td class='drop'></td><td>Element is positioned based on its parent element's position.</td></tr><tr><td class='op'><div class='card'>absolute</div></td></tr>",
+    "correct": ["static", "absolute", "fixed", "inherit"],
+    "type": "drag&drop"
+  },
+  {
+    "number": 72,
+    "question": "When content from a flow is loaded into a region, overflowed content:",
+    "options": [
+      "attempts to fit into the region by auto-adjusting the styles.",
+      "continues into the next region.",
+      "is truncated and an error flag is set.",
+      "is buffered for download."
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 73,
+    "question": "Which CSS3 code fragment rounds the corners of a border?",
+    "options": [
+      "border-image: 50px;",
+      "border-clip: 50px concave;",
+      "border-radius: 50px;",
+      "border-clip: 50px;"
+    ],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 74,
+    "question": "Which two CSS properties can be used to position multiple HTML elements next to one another? (Choose two.)",
+    "options": ["display", "position", "overflow", "float"],
+    "correct": [1, 3],
+    "display": "BD",
+    "type": "checkbox"
+  },
+  {
+    "number": 75,
+    "instruction": "Which CSS3 code fragment will style only the external links in an HTML document?",
+    "fragment": [
+      "&#8226; a [href$= \"http://\"] { font-weight : bold; }",
+      "&#8226; a: visitied { font-weight: bold; }",
+      "&#8226; a {font-weight: bold;}",
+      "&#8226; a [href^= \"http://\"] { font-weight : bold; }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 76,
+    "instruction": "You write the following JavaScript code. (Line numbers are included for reference only.)",
+    "fragment": [
+      "<img src=\"https://www.examtopics.com/assets/media/exam-media/03923/0005400001.png\" width=\"100%\">"
+    ],
+    "question": "You need to write a function that will initialize and encapsulate the member variable full name. Which are two possible code fragments you could insert at line 02 to achieve this goal? (Each correct answer presents a complete solution. Choose two.)",
+    "options": [
+      "fuction Student(someName) { fullname=somename; }",
+      "fuction Student(someName) { this.fullname=somename; }",
+      "fuction Student(fullName) { this.fullname=fullname; }",
+      "fuction Student(someName) { var fullname=somename; }"
+    ],
+    "correct": [1, 3],
+    "display": "BD",
+    "type": "checkbox"
+  },
+  {
+    "number": 77,
+    "instruction": "Your HTML5 code includes this code segment:",
+    "fragment": [
+      "<img src=\"https://vceguide.com/wp-content/uploads/2019/10/Microsoft-98-375-date-01-06-2019-00001_Page_40_Image_0001.jpg\" width=\"100%\">"
+    ],
+    "question": "Which JavaScript code fragment will determine that a visitor has selected the \"Chocolate\" radio button?",
+    "options": [
+      "if (doument.getElementById(\"chocolate\").checked == true",
+      "if (doument.getElementById(\"chocolate\").value = true",
+      "if (doument.getElementById(\"chocolate\").checked = true",
+      "if (doument.getElementById(\"chocolate\").value == true"
+    ],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 78,
+    "instruction": "You need to ensure the scope of a variable named j is limited to the block of a single function named foo(). Which JavaScript code fragment will accomplish this?",
+    "fragment": [
+      "&#8226; function foo(){ var j; ... }",
+      "&#8226; var j; function foo(){ ... }",
+      "&#8226; j = 0; function foo(){ ... }",
+      "&#8226; function foo(){ j = 0; ... }"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 79,
+    "question": "Which JavaScript method allows you to register multiple handlers for a single touch event?",
+    "options": [
+      "dispatchEvent",
+      "initUIEvent",
+      "addEventListener",
+      "initEvent"
+    ],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 80,
+    "question": "When you are working with the path API, what is the purpose of the clip method?",
+    "options": [
+      "pastes a shape object in from the system clipboard",
+      "constrains the rendered output of the shape object",
+      "copies the shape object to the system clipboard",
+      "stores the shape object for later reference in script"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 81,
+    "question": "When you are using the GeoLocation API, which two arguments does the getCurrentPosition function utilize? (Choose two.)",
+    "options": [
+      "success callback",
+      "MAC address",
+      "browser type",
+      "ip address",
+      "failure callback"
+    ],
+    "correct": [3, 4],
+    "display": "DE",
+    "type": "checkbox"
+  },
+  {
+    "number": 82,
+    "question": "You create an instance named \"ac\" of an accelerometer object. Which code fragment will retrieve a single update?",
+    "fragment": [
+      "&#8226; ac = navigator.accelerometer;",
+      "&#8226; ac.getAcceleration(accelerometerFunction);",
+      "&#8226; ac.watchAcceleration(accelerometerFunction);",
+      "&#8226; ac.clearWatch(watchid);"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 83,
+    "instruction": "DRAG DROP </br> Match the HTML5 elements to the corresponding functions. (To answer, drag the appropriate HTML5 element from the column on the left to its function on the right. Each HTML5 element may be used once, more than once, or not at all.) </br> Select and Place:",
+    "table": "<tr><th class='title1'>HTML5 Element</th><th class='title2'>Function</th></tr><tr><td class='op'><div class='card'>COLGROUP</div></td><td class='drop'></td><td>groups the header content in a table</td></tr></tr><tr><td class='op'><div class='card'>FIELDSET</div></td><td class='drop'></td><td>defines a header cell in a table</td></tr><tr><td class='op'><div class='card'>OPTGROUP</div></td><td class='drop'></td><td>defines a group of related options in a drop-down list</td></tr><tr><td class='op'><div class='card'>TH</div></td><td class='drop'></td><td>groups related elements in a form</td></tr><tr><td class='op'><div class='card'>THEAD</div></td><td class='drop'></td><td>specifies a group of one or more columns in a table for formatting</td></tr>",
+    "correct": [
+      "THEAD",
+      "TH",
+      "OPTGROUP",
+      "FIELDSET",
+      "COLGROUP"
+    ],
+    "type": "drag&drop"
+  },
+  {
+    "number": 84,
+    "question": "Which HTML5 tag is used to mark text that has been added to the original document?",
+    "options": [
+      "<q>",
+      "<pre>",
+      "<ins>",
+      "<i>"
+    ],
+    "correct": [2],
+    "display": "C",
+    "type": "radio"
+  },
+  {
+    "number": 85,
+    "question": "Which element should you use to rotate an SVG square?",
+    "options": [
+      "path",
+      "ANIMATETRANSFORM",
+      "ANIMATEMOTION",
+      "AREA SHAPE"
+    ],
+    "correct": [1],
+    "display": "B",
+    "type": "radio"
+  },
+  {
+    "number": 86,
+    "instruction": "Which HTML5 code fragment shows a way to validate numeric input as having a value from 1 to 100, inclusive?",
+    "fragment": [
+      "&#8226; < input type=\"num\" min=\"1\" max=\"100\" >",
+      "&#8226; < input type=\"positive\" limit=\"100\" >",
+      "&#8226; < input type=\"number\" low=\"1\" high=\"100\" >",
+      "&#8226; < input type=\"number\" min=\"1\" max=\"100\" >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 87,
+    "question": "Which three events are valid for the HTML CANVAS element? (Choose three.)",
+    "options": [
+      "scroll",
+      "mouseup",
+      "blur",
+      "datareceived",
+      "hover"
+    ],
+    "correct": [0, 1, 4],
+    "display": "ABE",
+    "type": "checkbox"
+  },
+  {
+    "number": 88,
+    "instruction": "Which code fragment will display the Play and Pause controls in the audio interface?",
+    "fragment": [
+      "&#8226; < audio controls=\"controls\"> ",
+      "&#8226; < audio preload=\"controls\" >",
+      "&#8226; < audio preload=\"auto\" >",
+      "&#8226; < audio autoplay=\"autoplay\" >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct": [0],
+    "display": "A",
+    "type": "radio"
+  },
+  {
+    "number": 89,
+    "instruction": "Which three code fragments define an HTML input control? (Choose three.)",
+    "fragment": [
+      "&#8226; < input type=\"combobox\" > ",
+      "&#8226; < input type=\"optionbutton\" > ",
+      "&#8226; < input type=\"url\" >",
+      "&#8226; < input type=\"tel\" >",
+      "&#8226; < input type=\"search\" >"
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D", "Option E"],
+    "correct": [2, 3, 4],
+    "display": "CDE",
+    "type": "checkbox"
+  },
+  {
+    "number": 90,
+    "question": "You create a web page that displays text images. You need to use CSS to rotate some text counterclockwise when the page renders in Internet Explorer. Which markup segment will accomplish this?",
+    "options": [
+      "-ms-transform: rotate(-30deg);",
+      "transform: rotate(30deg);",
+      "-o-transform: rotate(-30deg);",
+      "-ms-transform: rotate(30deg);"
+    ],
+    "correct": [3],
+    "display": "D",
+    "type": "radio"
+  },
+  {
+    "number": 91,
+    "question": "Which two functions support 2D transformations in CSS3? (Choose two.)",
+    "options": [
+      "skew()",
+      "zoom()",
+      "move()",
+      "scroll()",
+      "matrix()"
+    ],
+    "correct": [0,4],
+    "display": "AE",
+    "type": "checkbox"
+  },
+  {
+    "number": 92,
+    "question": "You are creating the styling for your webpage. Which two CSS attributes produce a scroll bar if your content overflows its element? (Choose two.)",
+    "options": [
+      "hidden",
+      "scroll",
+      "auto",
+      "visible"
+    ],
+    "correct": [1,2],
+    "display": "BC",
+    "type": "checkbox"
+  }
+]
