@@ -41,7 +41,7 @@ for (var x = 0; x < questions.length; x++) {
 function maker() {
   box.innerHTML = " ";
   var header = document.createElement("h1");
-  header.innerHTML = "MLA Practice Test";
+  header.innerHTML = "HTML, CSS, JS Practice Test";
   header.style.textAlign = "center";
   box.append(header);
 
@@ -402,9 +402,9 @@ subButton.addEventListener("click", () => {
       }
     }
 
-    // console.log(score);
+    console.log(score);
     var percentage = Math.round((score / total) * 100) + "%";
-    // console.log(percentage);
+    console.log(percentage);
 
 
     var s = document.getElementById("score");
