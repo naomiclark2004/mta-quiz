@@ -41,7 +41,7 @@ for (var x = 0; x < questions.length; x++) {
 function maker() {
   box.innerHTML = " ";
   var header = document.createElement("h1");
-  header.innerHTML = "HTML, CSS, JS Practice Test";
+  header.innerHTML = "HTML, CSS, JS </br> Practice Test";
   header.style.textAlign = "center";
   box.append(header);
 
