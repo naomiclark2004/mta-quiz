@@ -531,7 +531,7 @@
   },
   {
     "number": 46,
-    "question": "You need to use JavaScript to access the \"section1\" element in the following code fragment:<div id=\"section1\">Which method should you use?",
+    "question": "You need to use JavaScript to access the \"section1\" element in the following code fragment: < div id=\"section1\" > <br> Which method should you use?",
     "options": [
       "getElementsByTagName",
       "getElementById",
@@ -872,10 +872,10 @@
     ],
     "question": "You need to write a function that will initialize and encapsulate the member variable full name. Which are two possible code fragments you could insert at line 02 to achieve this goal? (Each correct answer presents a complete solution. Choose two.)",
     "options": [
-      "fuction Student(someName) { fullname=somename; }",
-      "fuction Student(someName) { this.fullname=somename; }",
-      "fuction Student(fullName) { this.fullname=fullname; }",
-      "fuction Student(someName) { var fullname=somename; }"
+      "function Student(someName) { fullname=somename; }",
+      "function Student(someName) { this.fullname=somename; }",
+      "function Student(fullName) { this.fullname=fullname; }",
+      "function Student(someName) { var fullname=somename; }"
     ],
     "correct": [1, 3],
     "display": "BD",
