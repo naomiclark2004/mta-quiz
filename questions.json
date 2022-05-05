@@ -101,7 +101,7 @@
   },
   {
     "number": 9,
-    "question": "The variable named \"ctx\" is the context of an HTML5 canvas object. What does the following code draw? ctx arc(x, y, r, 0 Math PI, true);",
+    "question": "The variable named \"ctx\" is the context of an HTML5 canvas object. What does the following code draw? ctx arc(x, y, r, 0, Math.PI, true);",
     "options": [
       "a circle at the given point",
       "a square at the given point",
@@ -270,8 +270,8 @@
       "a JavaScript file",
       "a cache manifest file"
     ],
-    "correct": [0],
-    "display": "A",
+    "correct": [3],
+    "display": "D",
     "type": "radio"
   },
   {
