@@ -351,11 +351,11 @@
     "options": [
       "It plays the myVacation.avi video if the browser supports it; otherwise, plays the myVacation.ogg video if the browser supports it.",
       "It plays two videos: first myVacation.avi, and then myVacation.ogg.",
-      " It plays both videos simultaneously, myVacation.avi and myVacation.ogg.",
+      "It plays both videos simultaneously, myVacation.avi and myVacation.ogg.",
       "It prompts the user to choose which format of the myVacation video it should play, .avi or .ogg."
     ],
-    "correct": [3],
-    "display": "D",
+    "correct": [0],
+    "display": "A",
     "type": "radio"
   },
   {
@@ -805,8 +805,8 @@
       "&#8226; div { overflow:auto; }"
     ],
     "options": ["Option A", "Option B", "Option C", "Option D"],
-    "correct": [0],
-    "display": "A",
+    "correct": [3],
+    "display": "D",
     "type": "radio"
   },
   {
