@@ -211,8 +211,8 @@
       "Bi-directional, full-dyplex communications over single TCP socket.",
       "Distributing load across multiple web servers."
     ],
-    "correct": [0],
-    "display": "A",
+    "correct": [1],
+    "display": "B",
     "type": "radio"
   },
   {
@@ -306,8 +306,8 @@
     "number": 26,
     "question": "When you are testing a touch interface, which two gestures can you simulate by using a mouse? (Choose two.)",
     "options": ["tap", "pinch", "flick", "rotate"],
-    "correct": [0, 3],
-    "display": "AD",
+    "correct": [0, 2],
+    "display": "AC",
     "type": "checkbox"
   },
   {
@@ -688,7 +688,7 @@
       "positions the image to the left and displays all of the text to the right of the image.",
       "positions the image to the right of the region and wraps text around the top, left, and bottom.",
       "positions the image to the left of the region and wraps text around the top, right, and bottom.",
-      " positions the image to the right and wraps text to the top and bottom."
+      "positions the image to the right and wraps text to the top and bottom."
     ],
     "correct": [1],
     "display": "B",
@@ -791,8 +791,8 @@
     "number": 69,
     "question": "Which two touch gestures require a multi-touch device? (Choose two.)",
     "options": ["hold", "tap", "pinch", "spread"],
-    "correct": [1, 2],
-    "display": "BC",
+    "correct": [2, 3],
+    "display": "CD",
     "type": "checkbox"
   },
   {
@@ -846,8 +846,8 @@
     "number": 74,
     "question": "Which two CSS properties can be used to position multiple HTML elements next to one another? (Choose two.)",
     "options": ["display", "position", "overflow", "float"],
-    "correct": [1, 3],
-    "display": "BD",
+    "correct": [0, 1, 3],
+    "display": "ABD",
     "type": "checkbox"
   },
   {
@@ -962,8 +962,8 @@
       "&#8226; ac.clearWatch(watchid);"
     ],
     "options": ["Option A", "Option B", "Option C", "Option D"],
-    "correct": [2],
-    "display": "C",
+    "correct": [1],
+    "display": "B",
     "type": "radio"
   },
   {
@@ -1071,8 +1071,8 @@
       "-o-transform: rotate(-30deg);",
       "-ms-transform: rotate(30deg);"
     ],
-    "correct": [3],
-    "display": "D",
+    "correct": [0],
+    "display": "A",
     "type": "radio"
   },
   {
