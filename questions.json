@@ -219,7 +219,7 @@
     "number": 19,
     "question": "Which two are WebSocket events? (Choose two.)",
     "options": ["onconnect", "onmessage", "ondatareceived", "onopen"],
-    "correct": [1, 4],
+    "correct": [1, 3],
     "display": "BD",
     "type": "checkbox"
   },
@@ -499,8 +499,8 @@
       "var a=new Foo();",
       "Foo=function(a){"
     ],
-    "correct": [2, 3],
-    "display": "CD",
+    "correct": [1, 3],
+    "display": "BD",
     "type": "checkbox"
   },
   {
@@ -948,8 +948,8 @@
       "ip address",
       "failure callback"
     ],
-    "correct": [3, 4],
-    "display": "DE",
+    "correct": [0, 4],
+    "display": "AE",
     "type": "checkbox"
   },
   {
