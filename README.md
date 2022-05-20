@@ -22,7 +22,7 @@ Grading: When submit is clicked your grade will appear at the top of the page an
 
 ## Troubleshooting
 
-1. Only one question appears when page is opened
+Only one question appears when page is opened:
 
 Refresh the page by clicking the reload/refresh button at the top of the browser window.
 
